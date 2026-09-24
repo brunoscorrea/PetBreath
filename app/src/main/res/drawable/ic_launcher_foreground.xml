@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PetBreath mark: a paw print with breath waves. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#FFFFFFFF" android:pathData="M37,62a11,9 0,1 0,22 0a11,9 0,1 0,-22 0z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M31,50a4,5.5 0,1 0,8 0a4,5.5 0,1 0,-8 0z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M39,43a4,5.5 0,1 0,8 0a4,5.5 0,1 0,-8 0z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M49,43a4,5.5 0,1 0,8 0a4,5.5 0,1 0,-8 0z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M57,50a4,5.5 0,1 0,8 0a4,5.5 0,1 0,-8 0z"/>
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="2.5" android:strokeLineCap="round" android:pathData="M67,53q4,5 0,10"/>
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="2.5" android:strokeLineCap="round" android:pathData="M72,49q7,9 0,18"/>
+</vector>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PetBreath</string>
+
+    <!-- Generic actions -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_more">More options</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_share">Create &amp; share</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_keep">Keep measuring</string>
+
+    <!-- Pets -->
+    <string name="action_add_pet">Add pet</string>
+    <string name="action_edit_pet">Edit pet</string>
+    <string name="action_delete_pet">Delete pet</string>
+    <string name="pet_add_title">Add pet</string>
+    <string name="pet_edit_title">Edit pet</string>
+    <string name="pet_delete_title">Delete %1$s?</string>
+    <string name="pet_delete_body">This permanently removes this pet and all of their measurements, medications and reminders from this phone. This cannot be undone.</string>
+    <string name="pet_normal_range">Normal range: %1$s</string>
+    <string name="pet_range_section">Normal resting respiratory rate</string>
+    <string name="pet_range_help">A sleeping rate above %1$d breaths/minute is a common reference threshold. Ask your veterinarian what range is right for your pet and enter it here.</string>
+    <string name="species_dog">Dog</string>
+    <string name="species_cat">Cat</string>
+    <string name="species_other">Other</string>
+    <string name="field_name">Name</string>
+    <string name="field_species">Species</string>
+    <string name="field_breed">Breed (optional)</string>
+    <string name="field_age_years">Age in years</string>
+    <string name="field_weight_kg">Weight (kg)</string>
+    <string name="field_weight_lb">Weight (lb)</string>
+    <string name="field_medical_notes">Medical notes</string>
+    <string name="field_medical_notes_hint">Diagnosis, vet contact, allergies…</string>
+    <string name="field_upper_threshold">Upper limit (bpm)</string>
+    <string name="field_lower_threshold">Lower limit (optional)</string>
+    <string name="field_notes_optional">Notes (optional)</string>
+    <string name="error_name_required">Please enter a name</string>
+    <string name="error_age">Enter an age between 0 and 40</string>
+    <string name="error_weight">Enter a valid weight</string>
+    <string name="error_upper">Enter a value from %1$d to %2$d</string>
+    <string name="error_lower">Must be lower than the upper limit</string>
+    <string name="error_bpm_range">Enter a value from 1 to %1$d</string>
+    <string name="error_future_date">The date and time can\'t be in the future</string>
+    <plurals name="age_years">
+        <item quantity="one">%1$d year</item>
+        <item quantity="other">%1$d years</item>
+    </plurals>
+    <plurals name="age_months">
+        <item quantity="one">%1$d month</item>
+        <item quantity="other">%1$d months</item>
+    </plurals>
+    <string name="age_years_months">%1$s %2$s</string>
+    <string name="weight_kg">%1$.1f kg</string>
+    <string name="weight_lb">%1$.1f lb</string>
+
+    <!-- Home -->
+    <string name="home_empty_title">Welcome to PetBreath</string>
+    <string name="home_empty_body">Add your dog or cat to start tracking their resting respiratory rate.</string>
+    <string name="home_no_measurements">No measurements yet</string>
+    <string name="home_last_measured">Last measured %1$s</string>
+    <string name="action_measure_pet">Measure %1$s</string>
+
+    <!-- Ranges and status -->
+    <string name="bpm_value">%1$d breaths/min</string>
+    <string name="breaths_per_minute">breaths per minute</string>
+    <string name="range_up_to">up to %1$d breaths/min</string>
+    <string name="range_between">%1$d–%2$d breaths/min</string>
+    <string name="status_normal">Within range</string>
+    <string name="status_above">Above range</string>
+    <string name="status_below">Below range</string>
+
+    <!-- Measure -->
+    <string name="measure_title">Measure</string>
+    <string name="measure_title_pet">Measure %1$s</string>
+    <string name="mode_seconds">%1$d seconds</string>
+    <string name="measure_idle_title">Tap each time the chest rises</string>
+    <string name="measure_idle_body">Count one tap per complete breath (in and out). The %1$d-second timer starts with your first tap. Best done while your pet is asleep.</string>
+    <string name="measure_keep_tapping">Tap once for every breath</string>
+    <string name="measure_seconds_left">%1$d s left</string>
+    <string name="measure_tap_action">Count a breath</string>
+    <string name="measure_a11y_idle">Breath counter. Double-tap each time your pet\'s chest rises. The timer starts with the first breath.</string>
+    <plurals name="measure_a11y_running">
+        <item quantity="one">%1$d breath counted, %2$d seconds left</item>
+        <item quantity="other">%1$d breaths counted, %2$d seconds left</item>
+    </plurals>
+    <plurals name="breaths_label">
+        <item quantity="one">breath</item>
+        <item quantity="other">breaths</item>
+    </plurals>
+    <plurals name="measure_counted">
+        <item quantity="one">%1$d breath counted in %2$d seconds</item>
+        <item quantity="other">%1$d breaths counted in %2$d seconds</item>
+    </plurals>
+    <string name="action_undo_breath">Undo tap</string>
+    <string name="action_restart">Restart</string>
+    <string name="measure_result_heading">Resting respiratory rate</string>
+    <string name="measure_normal_range">Your normal range: %1$s</string>
+    <string name="measure_out_of_range_advice">This reading is outside the range you set. Make sure your pet was sleeping or fully at rest, then measure again. If readings stay outside the range, or your pet seems unwell, contact your veterinarian. Seek emergency care right away if breathing looks labored.</string>
+    <string name="measure_context_label">Your pet was</string>
+    <string name="context_sleeping">Sleeping</string>
+    <string name="context_resting">Resting</string>
+    <string name="action_save_measurement">Save measurement</string>
+    <string name="action_measure_again">Measure again</string>
+    <string name="measure_discard_title">Discard this measurement?</string>
+    <string name="measure_discard_body">The current count will not be saved.</string>
+    <string name="action_measure_now">Measure now</string>
+
+    <!-- History and chart -->
+    <string name="trend_title">Trend</string>
+    <string name="history_title">History</string>
+    <string name="history_empty_title">No measurements yet</string>
+    <string name="history_empty_body">Tap “Measure now” while your pet is sleeping to record the first reading.</string>
+    <string name="action_add_manually">Add</string>
+    <string name="period_7d">7 days</string>
+    <string name="period_30d">30 days</string>
+    <string name="period_90d">90 days</string>
+    <string name="period_all">All</string>
+    <string name="period_30d_long">Last 30 days</string>
+    <string name="period_90d_long">Last 90 days</string>
+    <string name="period_all_long">All measurements</string>
+    <string name="chart_empty">No measurements in this period.</string>
+    <string name="chart_summary">Trend chart of %1$d measurements. Average %2$d, lowest %3$d, highest %4$d breaths per minute. %5$d above range.</string>
+    <string name="stats_line">Average %1$d · Low %2$d · High %3$d · %4$d readings</string>
+    <string name="stats_above">%1$d reading(s) above range in this period</string>
+    <string name="measurement_add_title">Add measurement</string>
+    <string name="measurement_edit_title">Edit measurement</string>
+    <string name="action_delete_measurement">Delete measurement</string>
+    <string name="measurement_delete_title">Delete measurement?</string>
+    <string name="measurement_delete_body">%1$d breaths/min recorded %2$s will be removed.</string>
+    <string name="measurement_deleted">Measurement deleted</string>
+
+    <!-- Export -->
+    <string name="action_export">Export report for vet</string>
+    <string name="action_export_short">Export</string>
+    <string name="export_title">Report for your vet</string>
+    <string name="export_body">The report is created on this phone. You choose where to send it, for example by email or a messaging app.</string>
+    <string name="export_format">Format</string>
+    <string name="export_pdf">PDF (printable report with chart)</string>
+    <string name="export_csv">CSV (spreadsheet)</string>
+    <string name="export_period">Period</string>
+    <string name="export_share_title">Share report</string>
+    <string name="export_failed">The report could not be created. Please try again.</string>
+    <string name="export_no_app">No app available to share the report.</string>
+    <string name="report_share_subject">Resting respiratory rate report – %1$s</string>
+    <string name="report_title">Resting Respiratory Rate Report</string>
+    <string name="report_generated">Generated %1$s with PetBreath</string>
+    <string name="report_species">Species</string>
+    <string name="report_age">Age</string>
+    <string name="report_weight">Weight</string>
+    <string name="report_period">Period</string>
+    <string name="report_period_all">All recorded measurements</string>
+    <string name="report_normal_range">Normal range</string>
+    <string name="report_summary">Summary</string>
+    <string name="report_no_measurements">No measurements recorded in this period.</string>
+    <string name="report_readings">Readings</string>
+    <string name="report_average">Average</string>
+    <string name="report_min_max">Lowest / highest</string>
+    <string name="report_above_range">Above range</string>
+    <string name="report_below_range">Below range</string>
+    <string name="report_trend">Trend</string>
+    <string name="report_medications">Medications</string>
+    <string name="report_medical_notes">Medical notes</string>
+    <string name="report_measurements">Measurements</string>
+    <string name="report_col_date">Date</string>
+    <string name="report_col_time">Time</string>
+    <string name="report_col_bpm">BPM</string>
+    <string name="report_col_status">Status</string>
+    <string name="report_col_context">Context</string>
+    <string name="report_col_notes">Notes</string>
+    <string name="report_page">Page %1$d</string>
+    <string name="report_disclaimer">Recorded by the owner using PetBreath. Tap-counted readings may contain counting errors. This report is for information only and is not a diagnosis.</string>
+
+    <!-- Medications -->
+    <string name="medications_title">Medications</string>
+    <string name="medications_title_pet">%1$s\'s medications</string>
+    <string name="medications_empty_title">No medications</string>
+    <string name="medications_empty_body">Add medications prescribed by your vet to keep track of doses and get reminders.</string>
+    <string name="action_add_medication">Add medication</string>
+    <string name="medication_add_title">Add medication</string>
+    <string name="medication_edit_title">Edit medication</string>
+    <string name="field_medication_name">Medication name</string>
+    <string name="field_dosage">Dose</string>
+    <string name="field_dosage_hint">e.g. 2.5 mg, ½ tablet</string>
+    <string name="field_instructions">Instructions</string>
+    <string name="field_instructions_hint">e.g. twice daily with food</string>
+    <string name="field_active">Currently taking</string>
+    <string name="medication_inactive">Stopped</string>
+    <string name="medication_reminder_times">Reminder times</string>
+    <string name="action_add_reminder_time">Add reminder time</string>
+    <string name="action_remove_time">Remove reminder at %1$s</string>
+    <string name="action_mark_given">Mark as given</string>
+    <string name="medication_last_given">Last given %1$s</string>
+    <string name="medication_no_recent_dose">No doses logged in the last 7 days</string>
+    <string name="action_delete_medication">Delete medication</string>
+    <string name="medication_delete_title">Delete %1$s?</string>
+    <string name="medication_delete_body">The medication, its reminders and dose history will be removed.</string>
+
+    <!-- Reminders -->
+    <string name="reminders_title">Reminders</string>
+    <string name="reminders_title_pet">Reminders for %1$s</string>
+    <string name="reminders_help">Get a reminder to measure the resting respiratory rate, ideally at a time your pet is usually asleep. Medication reminders are set on the Medications screen.</string>
+    <string name="reminders_empty_title">No reminders</string>
+    <string name="reminders_empty_body">Add a reminder so you don\'t forget to measure.</string>
+    <string name="action_add_reminder">Add reminder</string>
+    <string name="action_delete_reminder">Delete reminder</string>
+    <string name="reminder_edit_title">Reminder time</string>
+    <string name="days_every_day">Every day</string>
+    <string name="days_none">No days selected</string>
+    <string name="notifications_off_title">Notifications are off</string>
+    <string name="notifications_off_body">Allow notifications so PetBreath can remind you to measure and to give medications.</string>
+    <string name="action_enable_notifications">Allow notifications</string>
+    <string name="channel_rrr_name">Measurement reminders</string>
+    <string name="channel_rrr_description">Reminders to measure your pet\'s resting respiratory rate</string>
+    <string name="channel_medication_name">Medication reminders</string>
+    <string name="channel_medication_description">Reminders to give your pet\'s medications</string>
+    <string name="notification_rrr_title">Time to check %1$s\'s breathing</string>
+    <string name="notification_rrr_text">When %1$s is asleep, open PetBreath and count breaths for 30 seconds.</string>
+    <string name="notification_med_title">Medication for %1$s</string>
+    <string name="notification_med_text">%1$s – %2$s for %3$s</string>
+    <string name="notification_med_text_no_dose">%1$s for %2$s</string>
+    <string name="notification_action_mark_given">Mark as given</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_measurement">Measurement</string>
+    <string name="settings_mode_option">Count for %1$d seconds by default</string>
+    <string name="settings_haptics">Vibrate on each tap</string>
+    <string name="settings_haptics_summary">A light vibration confirms each counted breath</string>
+    <string name="settings_units">Weight unit</string>
+    <string name="unit_kg">Kilograms (kg)</string>
+    <string name="unit_lb">Pounds (lb)</string>
+    <string name="settings_theme">Appearance</string>
+    <string name="theme_system">Follow system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark (easier near a sleeping pet)</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_privacy_body">PetBreath has no account, no sign-in and no internet access. All pets, measurements and medications are stored only on this phone and are excluded from cloud backups. Data leaves the phone only when you choose to share a report. Uninstalling the app deletes all data.</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <!-- Onboarding and disclaimers -->
+    <string name="onboarding_title">Track your pet\'s breathing</string>
+    <string name="onboarding_subtitle">A simple tool to measure and record your dog\'s or cat\'s resting respiratory rate, especially helpful for pets with heart conditions.</string>
+    <string name="onboarding_point_measure">Tap once per breath for 30 or 60 seconds, and PetBreath works out breaths per minute.</string>
+    <string name="onboarding_point_private">No account and no internet. Everything stays on this phone.</string>
+    <string name="onboarding_point_vet">Share a PDF or CSV report with your veterinarian.</string>
+    <string name="onboarding_accept">I understand, continue</string>
+    <string name="disclaimer_short">PetBreath does not diagnose medical conditions. Always follow your veterinarian\'s advice. In an emergency, contact a vet immediately.</string>
+    <string name="disclaimer_full">PetBreath is a record-keeping tool. It does not diagnose, treat or prevent any disease and is not a substitute for professional veterinary care. Readings are counted by you and may be inaccurate. The ranges in the app are general references or values you entered; your veterinarian can tell you what is normal for your pet. If you are worried about your pet\'s breathing, contact your veterinarian. If your pet is struggling to breathe, seek emergency care right away.</string>
+
+    <!-- Education -->
+    <string name="learn_title">About resting breathing</string>
+    <string name="learn_what_title">What is the resting respiratory rate?</string>
+    <string name="learn_what_body">The resting respiratory rate (RRR), also called the sleeping respiratory rate, is the number of breaths your pet takes in one minute while asleep or completely relaxed. One breath is a full rise and fall of the chest (breathing in and out).</string>
+    <string name="learn_why_title">Why measure it?</string>
+    <string name="learn_why_body">For dogs and cats with heart disease, a rising resting breathing rate can be one of the earliest signs that fluid is building up in or around the lungs, often before other symptoms appear. Many veterinarians ask owners of pets with heart conditions to check it regularly at home and to keep a record. Tracking it over time also helps your vet see how your pet responds to treatment.</string>
+    <string name="learn_how_title">How to measure</string>
+    <string name="learn_how_body">• Measure when your pet is deeply asleep or fully at rest in a cool, calm place, not right after exercise, eating, excitement or in hot weather.\n• Don\'t count while your pet is dreaming, purring, panting or sniffing.\n• Watch the chest or belly. Tap the screen once each time the chest rises.\n• Use the 30-second mode for a quick reading or 60 seconds for more accuracy. PetBreath converts the count to breaths per minute.\n• Measuring at a similar time each day makes trends easier to compare.</string>
+    <string name="learn_normal_title">What is normal?</string>
+    <string name="learn_normal_body">Most healthy dogs and cats have a sleeping respiratory rate below 30 breaths per minute, and many breathe considerably slower. A rate above 30 breaths per minute is widely used as a reference threshold, which is why PetBreath uses 30 as its default. Your veterinarian may set a different range for your pet. You can change it in the pet\'s profile. Your pet\'s own usual rate (their baseline) is just as important as any single number.</string>
+    <string name="learn_contact_title">When to contact your veterinarian</string>
+    <string name="learn_contact_body">Call your veterinarian if:\n• the resting rate is above your pet\'s threshold on more than one measurement, especially if taken a little while apart,\n• the rate is clearly higher than your pet\'s usual baseline, or keeps rising over several days,\n• your pet also coughs, tires easily, is restless at night, eats less or seems unwell,\n• your vet has given you specific instructions and a reading meets them.</string>
+    <string name="learn_emergency_title">Get emergency care immediately if</string>
+    <string name="learn_emergency_body">• breathing is labored, noisy or uses a lot of belly effort,\n• your pet breathes with an open mouth (especially a cat) or cannot settle down or lie comfortably,\n• gums or tongue look pale, gray, blue or purple,\n• your pet collapses, faints or is extremely weak.\nDo not wait to record another measurement in these situations.</string>
+    <string name="learn_disclaimer_title">Important</string>
+</resources>
